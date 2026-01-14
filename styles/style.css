@@ -196,13 +196,31 @@ main{
 .sponsor-companies{
     filter: grayscale(100%);
 }
+
+footer{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.footer1{
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    
+}
+.footer-padding{
+    padding: 35px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
 /* responsive */
 @media screen and (max-width:576px) {
     
     .navbar,
     .nav-link,
     .teams,
-    .features{
+    .features
+    {
 
         flex-direction: column;
     }
@@ -255,5 +273,8 @@ main{
 .architect img{
     width: 100%;
 }
-
+.figma{
+    grid-column: 1 / -1;
+    justify-self: center;
+}
 }
